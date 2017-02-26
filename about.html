@@ -1,0 +1,329 @@
+layout: false
+title: "个人简历"
+---
+
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Lazyboy的人简历</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+  <style>
+
+	/* 定义辅助CSS来美化简历头部 */
+	body{
+	  font-family: 'microsoft yahei',Arial,sans-serif;
+	}
+
+	.cvheader{
+	  border-bottom: 1px solid #DFDFDF;
+	  padding-top:30px;
+	  padding-bottom:20px;
+	}
+
+	.cvheader h1{
+	  margin: 5px;
+	}
+
+	.address{
+	  background: #efb73e;
+	  color: #fff;
+	  padding: 10px 0;
+	}
+
+	/* 定义辅助CSS来美化简历主体 */
+
+	.cvbody{
+	  padding-top: 50px; 
+	}
+
+	.cbox{
+	  margin-bottom: 30px;
+	  color: #FFF;
+	  padding: 20px 50px;
+	}
+
+	/* 定义cbox颜色 */
+	.green{
+	  background: #2ecc71;
+	}
+
+	.orange{
+	  background: orange;
+	}
+
+	.red{
+	  background: #dd4814;
+	}
+
+	.bbox{
+	  border: 1px solid #DFDFDF;
+	  border-radius: 5px;
+	  margin-bottom:30px;
+	  padding: 20px 50px;
+	}
+
+	.footer{
+	  margin: 30px 0 30px;
+	  padding: 50px;
+	  background: #CCC;
+	  color: #FFF;
+	}
+	
+	.table{
+		color: #fff;
+		margin-top:30px;
+	}
+	
+	.xmjl{
+		margin:20px 0;
+	}
+</style>
+</head>
+<body>
+  <!-- 定义简历的头部 //-->
+
+<div class="container">
+  <div class="row cvheader">
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <!--  添加颜色//-->
+      <h1 class="text-primary">lazy boy</h1>
+      <!--  添加图标 //-->
+	  <br />
+      <p><span class="glyphicon glyphicon-paperclip"></span> 意向工作</p>
+	  <h4> &nbsp;&nbsp;&nbsp;&nbsp;嵌入式开发工程师</h4>
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-xs-12">
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-4 col-xs-4">
+		<br />
+          <p id="contact" class="address text-center">联系</p>
+        </div>
+        
+        <div class="col-lg-8 col-md-8 col-xs-8">
+		 <br />
+		  <p><span class="glyphicon glyphicon-earphone"></span> 13256xxxx35</p>
+          <p><span class="glyphicon glyphicon-envelope"></span> xbotao2014@163.com</p>          
+          <p><span class="glyphicon glyphicon-road"></span> 山东省青岛市黄岛区 长江西路66号</p>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="col-lg-2 col-md-2 col-xs-12">
+      <p>
+        <!-- 这里定义图片为响应式，并且添加圆角效果，以便保证图片在不同设备上都可以完美显示 //-->
+        <img data-toggle="tooltip" data-placement="left" id="avatar" title="我是lazyboy" class="img-responsive img-rounded" src="http://www.gbtags.com/gb/networks/avatars/13d6393f-a44c-4180-8cb6-7bf0e4776283.png" alt="">
+       </p>
+    </div>
+  </div>
+</div>
+
+<!-- 定义简历的主体部分 //-->
+
+<div class="container">
+  <div class="row cvbody">
+    
+    <!-- 这里定义两个区域，布局定义如下：//-->
+    
+    <div class="col-lg-6 col-md-6 col-xs-12">
+    
+      <div class="row">
+        <div class="cbox green">
+          <h3>个人介绍</h3>          
+		    <p>硕士研究生 - 信息与通信工程专业 - 2014级</p>
+            <p>研究方向：目标跟踪（计算机视觉）</p> 
+          <p>擅长领域：单片机、嵌入式、DSP、FPGA相关系统的软件开发，熟悉多种硬件通信接口。</p> 
+		  <p>业余爱好：网络爬虫</p>
+        </div>
+        <div class="cbox red">
+          <h3>个人技能</h3>
+          <p>
+            <!-- 这里使用Bootstrap3的组件添加技能 //-->
+            
+            嵌入式开发(STM32/DM8127)
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" style="width:90%"></div>
+            </div>
+			
+			Altium designer/Cadence
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary" style="width:70%"></div>
+            </div>
+            
+            C/C++/C#
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" style="width:80%"></div>
+            </div>
+            
+            java/python/Android
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary" style="width:40%"></div>
+            </div>
+            
+            HTML/CSS/Javascript/node.js
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" style="width:60%"></div>
+            </div>
+          </p>
+        </div>
+		<div class="cbox orange">
+          <h3>科研成果</h3>          
+			<table class="table">
+				<tbody>
+					<tr>
+						<td width="10%"><strong>SCI论文</strong></td>
+						<td><a herf="http://ieeexplore.ieee.org/document/7534801/authors">Integrating Local Binary Patterns into Normalized Moment of Inertia for Updating Tracking Templates</a></td>
+					</tr>
+					<tr>
+						<td><strong>中文核心</strong></td>
+						<td>一种基于PandaBoard的运动物体检测系统设计</td>
+					</tr>
+					<tr>
+						<td><strong>发明专利</strong></td>
+						<td>一种基于图像处理的双车联动智能校正系统</td>
+					</tr>
+					<tr>
+						<td><strong>实用新型</strong></td>
+						<td>新型振动加速度测量仪</td>
+					</tr>
+				</tbody>
+			</table>
+        </div>
+		<!--
+        <div class="cbox orange">
+          <h4>语言水平</h4>
+          <p>
+			<canvas id="en" width="150" height="150" class="pull-left"></canvas>
+			<canvas id="zh" width="150" height="150" class="pull-right"></canvas>
+			<p class="clearfix"></p>
+          </p>
+        </div>
+		-->
+      </div>
+    
+    </div>
+    
+    <!-- 为了清楚的分割两个区域，这里我们添加了一个空白区域，或者也可以在CSS中定义Margin实现//-->
+    <div class="col-lg-1 col-md-1 col-xs-12"></div>
+    
+    <div class="col-lg-5 col-md-5 col-xs-12">
+    
+      <div class="row">
+        <div class="bbox">
+          <h4>教育背景</h4>
+		  <div class="xmjl">
+          <p><span class="glyphicon glyphicon-tint"></span> <strong>2014.09~2017.06 </strong></p>
+		  <p>&nbsp;&nbsp;&nbsp;&nbsp;中国石油大学（华东） - 信息与通信工程 - 工学硕士(保送)</p>
+		  </div>
+		  <div class="xmjl">
+		  <p><span class="glyphicon glyphicon-tint"></span> <strong>2010.09~2014.06 </strong></p>
+		  <p>&nbsp;&nbsp;&nbsp;&nbsp;中国石油大学（华东） - 信息与通信工程专业 - 工学学士</p>
+		  </div>
+        </div>
+        <div class="bbox">
+          <h4>项目经历</h4>
+		  <div class="xmjl">
+		  <h5><strong> <span class="glyphicon glyphicon-tint"></span> 2015.04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;仪器仪表自动测试平台 - 软件开发</strong></h5>
+			<p><span class="glyphicon glyphicon-star-empty"></span> 使用C++和VISA，实现对生产线产品指标De自动化测试;</p>
+			<p><span class="glyphicon glyphicon-star-empty"></span> 人机交互友好，有错误报警、数据导出、模糊查询等功能;</p>
+		  </div>
+		  <div class="xmjl">
+		  <h5><strong> <span class="glyphicon glyphicon-tint"></span> 2015.04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全方位运输平台控制系统 - 软硬件研发</strong></h5>
+			<p><span class="glyphicon glyphicon-star-empty"></span> 麦克纳姆轮运输平台控制系统设计，实现平台遥控运行;</p>
+			<p><span class="glyphicon glyphicon-star-empty"></span> 实现'双'运输平台联合动作，无连接状态下动作一致;</p>
+			</div>
+			<div class="xmjl">
+		  <h5><strong> <span class="glyphicon glyphicon-tint"></span>  2015.04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;仪器仪表自动测试平台 - 软件开发</strong></h5>
+			<p><span class="glyphicon glyphicon-star-empty"></span> aaaaaaaaaaaaaaa</p>
+			<p><span class="glyphicon glyphicon-star-empty"></span> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+			</div>
+			<div class="xmjl">
+		  <h5><strong> <span class="glyphicon glyphicon-tint"></span>  2015.04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;仪器仪表自动测试平台 - 软件开发</strong></h5>
+			<p><span class="glyphicon glyphicon-star-empty"></span> aaaaaaaaaaaaaaaaaaaaa；</p>
+			<p><span class="glyphicon glyphicon-star-empty"></span> aaaaaaaaaaaaaaaaaaaaa</p>
+			</div>
+        </div>
+        <div class="bbox">
+          <h4>个人爱好</h4>
+          <p>
+            <p><span class="glyphicon glyphicon-cutlery"></span> 美食</p>
+            <p><span class="glyphicon glyphicon-screenshot"></span> 网络爬虫</p>
+			<span class="glyphicon glyphicon-tree-deciduous"></span> 羽毛球 
+            <span class="glyphicon glyphicon-plane"></span> 游泳
+          </p>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+  </div>
+</div>
+
+
+<!-- 引入jQuery类库和Bootstrap3的Javascript类库 //-->
+<script type='text/javascript' src="http://libs.baidu.com/jquery/1.11.1/jquery.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script>
+/*Javascript源代码*/
+
+$(function(){
+  $('#contact').popover({placement:'bottom', container: 'body', html:true, content:'<p>QQ: 875605625</p><p>微博：weibo.com/gbtags</p><p>微信：gbtags</p>'});
+  $('#avatar').tooltip({'placement':'bottom'});
+  
+	$.getScript('http://www.chartjs.org/assets/Chart.js',function(){
+	  
+	  var zhdata = [{
+			label: '中文水平',
+			value: 90,
+			highlight: "#FFC870",
+			color: "#F7464A"
+		}, {
+			value: 10,
+			color: "#EEEEEE"
+		}
+		]
+
+		var zhoptions = {
+			animation: true,
+			segmentShowStroke : false
+		};
+
+		var c = $('#zh');
+		var ct = c.get(0).getContext('2d');
+		
+		var zhChart = new Chart(ct).Doughnut(zhdata, zhoptions);
+
+	
+	  var endata = [{
+			label: '英文水平',
+			value: 80,
+			highlight: "#5AD3D1",
+			color: "#4D5360"
+		}, {
+        value: 20,
+        color: "#EEEEEE"
+		}
+		]
+
+		var enoptions = {
+			animation: true,
+			segmentShowStroke : false
+		};
+
+		var c = $('#en');
+		var ct = c.get(0).getContext('2d');
+		
+		var enchart = new Chart(ct).Doughnut(endata, enoptions);
+	});
+
+});
+
+</script>
+</body>
+</html>
