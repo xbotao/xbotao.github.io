@@ -265,7 +265,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: lazyboy
 
 # Disqus
 #disqus_shortname:
@@ -274,7 +274,7 @@ mathjax:
 #hypercomments_id:
 
 # Gentie productKey
-gentie_productKey: '8b021d3cd4024083bc80153961a0c023'
+#gentie_productKey: '8b021d3cd4024083bc80153961a0c023'
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
