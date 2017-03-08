@@ -23,3 +23,11 @@ tags:
   //! converts old-style IplImage to the new matrix; the data is not copied by default
   Mat(const IplImage* img, bool copyData=false);
   ```
+  
+## unsiged char* --> Mat
+
+  ```C++
+  //char* 图像转为Mat类型，原始数据为YUV420中的Y，灰度图像
+  int lineByte = (freame.uWidth + 3)/4*4;
+  Mat grayImage(freame.uHeight, freame.uWidth, CV_8UC1, freame.pPacketBuffer, lineByte);
+  ```

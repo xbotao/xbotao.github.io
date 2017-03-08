@@ -28,4 +28,12 @@ dll工程导入之前配置好的opencv属性文件，【视图】-【属性管�
 
 ### 创建测试程序
 
+
+
+### dll调试
+
+dll工程，右键【属性】-【调试】-【命令】，选择浏览，找到测试程序的可执行文件。
+![paste image](http://oh1jgyw0v.bkt.clouddn.com/1488077308259ysrwsg8z.png?imageslim)
+
+---
 **未完，待续……**
