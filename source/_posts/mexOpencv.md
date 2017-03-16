@@ -1,7 +1,9 @@
 title: matlab调用opencv
 author: lazyBoy
-date: 2017-03-05 10:01:13
-tags:
+tags: []
+categories:
+  - 计算机视觉
+date: 2017-03-05 10:01:00
 ---
 <p id="div-border-left-yellow">
 在研究目标跟踪算法时，习惯了借助Opencv实现对图像的操作，拿到一个matlab的代码，怎么对它进行改进呢？

@@ -1,10 +1,11 @@
 title: 打包图像处理算法dll
 author: lazyBoy
 tags:
-  - dll
   - opencv
+  - dll
 categories:
   - 教程
+  - 计算机视觉
 date: 2017-01-16 21:29:00
 ---
 <p id="div-border-left-purple">开发图像处理算法，有时并不想把源码开放给对方，此时一般需要将程序打包成动态链接库的形式。此时选择的方案是：<br />**opencv静态库 + 打包成dll**</p>

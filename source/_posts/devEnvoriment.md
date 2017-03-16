@@ -1,7 +1,9 @@
 title: opencv开发环境搭建
 author: lazyBoy
-date: 2017-03-07 11:57:54
-tags:
+tags: []
+categories:
+  - 计算机视觉
+date: 2017-03-07 11:57:00
 ---
 <p id="div-border-left-green">Opencv为开源计算机视觉库，用于计算机视觉相关的开发。</p>
 **记录一下不同平台下Opencv的应用过程。**

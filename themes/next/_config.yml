@@ -252,10 +252,10 @@ highlight_theme: normal
 # ---------------------------------------------------------------
 
 # MathJax Support
+# MathJax Support
 mathjax:
   enable: true
-  per_page: false
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 # Swiftype Search API Key

@@ -1,7 +1,8 @@
 title: 借助ppt实现图片拼接
 author: lazyBoy
 tags: []
-categories: []
+categories:
+  - 计算机小技巧
 date: 2017-03-09 11:42:00
 ---
 <p id="div-border-top-red">最近在写硕士毕业论文，不能避免的是在论文中插入实验结果。都是各种图表，而且又不能一行放一张。。。。<br />

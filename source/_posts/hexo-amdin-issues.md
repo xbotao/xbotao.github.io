@@ -40,8 +40,6 @@ pre .line {
 
 ```
 
-
-
 ## `hexo d` 提交警告
 在使用`hexo d`提交代码时会遇到
 ```Bash
@@ -57,3 +55,10 @@ git config --global core.autocrlf true #这个是转换，也是默认值
 git config --global core.autocrlf input #貌似是上库转换，从库中迁出代码不转换  
 git config --global core.autocrlf false  #这个一般是window上的，不转换  
 ```
+
+##
+ 优化 http://www.jianshu.com/p/6c1196f12302
+ 
+## 公式显示问题
+
+[如何处理Hexo和MathJax的兼容问题](http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/)

@@ -7,8 +7,8 @@ date: 2016-12-04 19:00:27
 ## Mr.Shaw
 <!-- 图标参考 https://neveryu.github.io/2016/09/03/hexo-next-one/ -->
 
-&nbsp;&nbsp;&nbsp;<i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; 15666xx6xx7
-&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;[upc_xbt@163.com](mailto:upc_xbt@163.com)
+&nbsp;&nbsp;&nbsp;<i class="fa fa-phone-square" aria-hidden="true"> </i> &nbsp;&nbsp;&nbsp; 15666xx6xx7
+&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"> </i>&nbsp;&nbsp;&nbsp;&nbsp;[upc_xbt@163.com](mailto:upc_xbt@163.com)
 
 - **硕士**： &nbsp;&nbsp;&nbsp;&nbsp;信息与通信工程专业 - 2014~2017
 - **研究方向**： 目标跟踪（计算机视觉）

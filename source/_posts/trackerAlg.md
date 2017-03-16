@@ -7,7 +7,7 @@ date: 2017-03-07 11:05:00
 ---
 ## 目标跟踪近况
 
-![paste image](http://oh1jgyw0v.bkt.clouddn.com/1488876043750kroxgtal.png?imageslim)
+![paste image](http://oh1jgyw0v.bkt.clouddn.com/1489644707812qfh309jg.png?imageslim "目标跟踪算法现状，VOT 2016")
 
 <!-- more -->
 

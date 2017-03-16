@@ -17,10 +17,9 @@
     "hexo-git-backup": "^0.1.2",
     "hexo-neat": "^1.0.4",
     "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-kramed": "^0.1.2",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0",
-    "qiniu": "^6.1.13"
+    "hexo-server": "^0.2.0"
   },
   "devDependencies": {
     "hexo-deployer-git": "^0.2.0"
