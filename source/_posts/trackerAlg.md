@@ -9,6 +9,8 @@ date: 2017-03-07 11:05:00
 
 ![paste image](http://oh1jgyw0v.bkt.clouddn.com/1488876043750kroxgtal.png?imageslim)
 
+<!-- more -->
+
 ## 博客文章
 
 - [2016视觉目标跟踪总结](http://blog.csdn.net/jacke121/article/details/54463035?locationNum=11&fps=1)
@@ -30,3 +32,12 @@ http://blog.csdn.net/hjl240/article/details/52174983)
   - [Discriminative Scale Space Tracking.(TPAMI,2017)](http://www.cvl.isy.liu.se/en/research/objrec/visualtracking/scalvistrack/DSST_TPAMI.pdf) --- [code [matlab]](http://www.cvl.isy.liu.se/en/research/objrec/visualtracking/scalvistrack/fDSST_code.zip)
 
   [展示视频](http://www.cvl.isy.liu.se/en/research/objrec/visualtracking/scalvistrack/ScaleTracking_BMVC14_video.mp4)
+  
+2.
+目标跟踪系列二：Staple: Complementary Learners for Real-Time Tracking（2016CVPR） - 博客频道 - CSDN.NET
+http://blog.csdn.net/zixiximm/article/details/53303921?locationNum=5&fps=1
+  
+  
+## Benchmark
+
+[Visual Tracker Benchmark](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html)

@@ -28,7 +28,7 @@ date: 2016-12-04 19:00:27
 
 | 类型 | 成果 |
 | :---|:---|
-| SCI论文 | Integrating Local Binary Patterns into Normalized Moment of Inertia for Updating Tracking Templates |
+| SCI论文 | [Integrating Local Binary Patterns into Normalized Moment of Inertia for Updating Tracking Templates](http://xueshu.baidu.com/s?wd=paperuri%3A%28bca8534ade544331ddbf48cb6c1ea766%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Fieeexplore.ieee.org%2Fxpl%2FarticleDetails.jsp%3Farnumber%3D7534801&ie=utf-8&sc_us=7077151194146836774) |
 | 中文核心 | 一种基于PandaBoard的运动物体检测系统设计 |
 | 发明专利 | 一种基于图像处理的双车联动智能校正系统 |
 | 实用新型 | 新型振动加速度测量仪 |
